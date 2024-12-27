@@ -10,15 +10,13 @@ class vehicle:
 
     def __str__(self):
         return '{} {} ' .format(self.brand,self.model)
-
 class car(vehicle):
     pass
 
 class bike(vehicle):
     pass
 def makeCar():
-
-
+    
     start = input("build a new car? y/n ")
 
     if "y" in start:
